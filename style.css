@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.header, .footer {
+    background: rgb(116, 205, 230);
+    padding: 20px;
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.content p, .content h3, img {
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}
+.connect {
+    margin: 0;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+nav ul li {
+    display: flex;
+}
+h1 {
+    margin-top: 0;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
