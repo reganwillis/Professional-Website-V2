@@ -1,6 +1,5 @@
 # Professional-Website-V2
 
-http://reganwillis-softwaredeveloper.com/
+Version 2 of my professional website ([see version 1](https://github.com/reganwillis/Professional-Website-V1)) is hosted at http://reganwillis-softwaredeveloper.com/ and can also be accessed at reganwillis.com.
 
-Simple HTML/CSS website for connecting with people.
-This webpage is mostly unused right now but it will be used in the future as a place to store projects or things I'm working on.
+This is a simple HTML/CSS website that holds information about me as a programmer including bios, my resume, and some technical writing that I've done. I also provides links to connect with me.
