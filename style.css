@@ -28,21 +28,45 @@ body {
 
 .portfolio-container {
     margin: 20px;
+    overflow: hidden;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 5vw);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 30vw);
     grid-gap: 15px;
 }
 
 @media only screen and (max-width: 768px) {
     .portfolio-container {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 5vw);
+        grid-template-rows: repeat(6, 30vw);
     }
 }
 
+.portfolio-container p {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.portfolio-item img {
+    height: auto;
+    width: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-item {
+    overflow: hidden;
+}
+
 .portfolio-container div {
-    background-color: seagreen;
+    border-style: solid;
+}
+
+.portfolio-container div:hover {
+    color: darkblue;
+    border-color: darkblue;
 }
 
 nav {
