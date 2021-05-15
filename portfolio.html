@@ -8,6 +8,9 @@
     <title>Regan Willis</title>
     <!--LINK TO CSS DOC-->
     <link rel="stylesheet" type="text/css" href = 'style.css'/>
+    <!--LINK TO JQUERY LIBRARY-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
 </head>
 <body>
     <div class = 'header'>
@@ -19,7 +22,7 @@
         </nav>
     </div>
     <div class = 'portfolio-container'>
-        <div class='portfolio-item'>
+        <div class='portfolio-item' data-link='https://medium.com/@reganwillis/understanding-multiprocessing-with-python-b2a793be046b'>
             <p>Python Multiprocessing</p>
             <img src='images/multiprocessing-img.jpeg'>
         </div>
@@ -27,7 +30,7 @@
             <p>REST API Communication</p>
             <img src='images/communication.jpg'>
         </div>
-        <div class='portfolio-item'>
+        <div class='portfolio-item' data-link='https://medium.com/@reganwillis/android-development-querying-an-api-with-java-997384a1e787'>
             <p>Access APIs in Android</p>
             <img src='images/tim-mossholder-unsplash.jpeg'>
         </div>
@@ -47,5 +50,15 @@
     <div class = 'footer'>
         <p>Copyright Regan Willis 2021</p>
     </div>
+    <script>
+    //jQuery click listener for data-link attributes
+    //https://stackoverflow.com/questions/796087/make-a-div-into-a-link
+        $(document).ready(function() {
+            $("[data-link]").click(function() {
+                window.location.href = $(this).attr("data-link");
+                return false;
+            });
+        });
+    </script>
 </body>
 </html>
