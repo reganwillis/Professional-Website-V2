@@ -8,8 +8,6 @@
     <title>Regan Willis</title>
     <!--LINK TO CSS DOC-->
     <link rel="stylesheet" type="text/css" href = 'style.css'/>
-    <!--LINK TO JQUERY LIBRARY-->
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 
 </head>
 <body>
@@ -22,43 +20,39 @@
         </nav>
     </div>
     <div class = 'portfolio-container'>
-        <div class='portfolio-item' data-link='https://medium.com/@reganwillis/understanding-multiprocessing-with-python-b2a793be046b'>
+        <div class='portfolio-item'>
             <p>Python Multiprocessing</p>
             <img src='images/multiprocessing-img.jpeg'>
+            <a href="https://medium.com/@reganwillis/understanding-multiprocessing-with-python-b2a793be046b"><span></span></a>
         </div>
         <div class='portfolio-item'>
-            <p>REST API Communication</p>
+            <p>REST Client</p>
             <img src='images/communication.jpg'>
+            <a href="https://s3.us-east-2.amazonaws.com/reganwillis-softwaredeveloper.com/RESTClient.html"><span></span></a>
         </div>
-        <div class='portfolio-item' data-link='https://medium.com/@reganwillis/android-development-querying-an-api-with-java-997384a1e787'>
+        <div class='portfolio-item'>
             <p>Access APIs in Android</p>
             <img src='images/tim-mossholder-unsplash.jpeg'>
+            <a href="https://medium.com/@reganwillis/android-development-querying-an-api-with-java-997384a1e787"><span></span></a>
         </div>
         <div class='portfolio-item'>
-            <p>Technician Dashboard Django App</p>
+            <p>Multilayer Perceptron</p>
             <img src='images/yuzhang-unsplash.jpg'>
+            <a href="https://github.com/reganwillis/Multilayer-Perceptron"><span></span></a>
         </div>
         <div class='portfolio-item'>
             <p>Vector Multiplication</p>
             <img src='images/markus-spiske-unsplash.jpg'>
+            <a href="https://github.com/reganwillis/Vector-Multiplication"><span></span></a>
         </div>
         <div class='portfolio-item'>
             <p>MNIST Neural Network</p>
             <img src='images/MNIST-Neural-Network.png'>
+            <a href="https://github.com/reganwillis/MNIST-Neural-Network"><span></span></a>
         </div>
     </div>
     <div class = 'footer'>
         <p>Copyright Regan Willis 2021</p>
     </div>
-    <script>
-    //jQuery click listener for data-link attributes
-    //https://stackoverflow.com/questions/796087/make-a-div-into-a-link
-        $(document).ready(function() {
-            $("[data-link]").click(function() {
-                window.location.href = $(this).attr("data-link");
-                return false;
-            });
-        });
-    </script>
 </body>
 </html>

@@ -47,7 +47,27 @@ body {
     font-weight: bold;
 }
 
-[data-link] {
+.portfolio-item {
+    position: relative;  /*makes div clickable*/
+    overflow: hidden;
+}
+
+.portfolio-item:hover {
+    color: blue;
+    border-color: blue;
+}
+
+span {
+    /*makes div clickable*/
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+span:hover {
     cursor: pointer;
 }
 
@@ -59,17 +79,8 @@ body {
     object-fit: cover;
 }
 
-.portfolio-item {
-    overflow: hidden;
-}
-
 .portfolio-container div {
     border-style: solid;
-}
-
-[data-link]:hover {
-    color: darkblue;
-    border-color: darkblue;
 }
 
 nav {
