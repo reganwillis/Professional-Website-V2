@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1250px) {
+    body {
+        margin: 0;
+    }
+}
+
+.index-images img {
+    height: 250px;
+    width: 250px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
