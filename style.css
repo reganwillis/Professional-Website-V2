@@ -28,7 +28,7 @@ body {
     align-items: left;
 }
 
-.content p, .content h3, img {
+.content p, h3, img {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -43,7 +43,6 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
-    padding-right: 20px;
 }
 
 nav ul li {
@@ -53,12 +52,15 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: blue;
 }
 
 #curr-page li a {
-    text-decoration: underline;
+	font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: red;
+	text-decoration: underline;
 }

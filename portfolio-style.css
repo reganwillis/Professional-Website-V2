@@ -1,11 +1,27 @@
-.research-projects-container {
-	margin: 20px;
+.research-projects {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
 }
+
+.research-title {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.research-description, .research-description a {
+	font-size: small;
+	color: darkgrey;
+	margin: 0;
+	padding: 0;
+}
+
 .portfolio-container {
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 30vw);
+    grid-template-rows: repeat(3, 30vw);
     grid-gap: 15px;
 }
 
@@ -15,7 +31,7 @@
     }
     .portfolio-container {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 30vw);
+        grid-template-rows: repeat(8, 30vw);
     }
 }
 
